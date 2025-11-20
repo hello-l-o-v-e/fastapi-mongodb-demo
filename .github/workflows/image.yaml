@@ -22,12 +22,7 @@ jobs:
       - name: push image
         run: |
           docker image push yanhu12/fastapi-demo:latest
-      - name: build image
-        run: |
-          docker image build -t yanhu12/fastapi-demo:latest
-      - name: push image
-        run: |
-          docker image push yanhu12/fastapi-demo:latest
+
 
 
 
